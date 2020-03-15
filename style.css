@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAVIGATION */
+
+nav {
+    height: 55px;
+    background-color: #333;
+    text-align: center;
+    line-height: 50px;
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav li a {
+    padding: 0 50px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 20px;
+    transition: color .5s;
+}
+
+nav li a:hover {
+    color: cornflowerblue;
+    
+}
+
+/* HEADER */
+
+.header-img {
+    position: relative;
+    height: 300px;
+    background-image: url('/img/grass.jpeg');
+    background-repeat: no-repeat;
+    background-position: 20% 80%;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.header-bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.4 );
+}
+header h1{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black ;
+}
+/* MAIN */
+
+main{
+    width: 60%;
+    margin: 50px auto;
+}
+.contact {
+    font-size: 20px;
+    text-align: center;    
+}
+
+.services {
+    margin-bottom: 50px;
+    text-align: center;
+}
+.about-us {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+section {
+    margin: 40px 0;
+}
+
+.min {
+    background-position: center;
+    background-attachment: fixed;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.top { 
+    position: relative;
+    height: 300px;
+    background-image: url('/img/run.jpeg');
+}
+
+.middle { 
+    position: relative;
+    height: 300px;
+    background-image: url('/img/cycling.jpeg');
+}
+
+.bottom { 
+    position: relative;
+    height: 300px;
+    background-image: url('/img/swimming.jpeg');
+}
+
+.about-us-text {
+    position: absolute;
+    bottom: 20px;
+    padding: 20px 40px;
+    color: #fff;
+    z-index: 1;
+    text-align: center;
+    
+}
+
+.about-us-bg {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0,0,0, .8);
+    height: 50%;
+    width: 100%;
+    border-bottom-right-radius: 50px;
+}
+
+.about-us-text h3 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    height: 80px;
+    line-height: 80px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.foot-ico {
+    margin-left: 50px;
+}
+
+.foot-ico i {
+    padding: 0 5px;
+    font-size: 20px;
+    margin: 20px;
+    color: #fff;
+    transition: color 0.5s;
+}
+
+.foot-ico i:hover {
+    color: cornflowerblue;
+    
+}
