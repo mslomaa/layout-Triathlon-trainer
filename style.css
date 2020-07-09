@@ -43,8 +43,9 @@ nav li a:hover {
 .header-img {
     position: relative;
     height: 300px;
-    background-image: url('/img/grass.jpeg');
+    background-image: url('./img/grass.jpeg');
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: 20% 80%;
 }
 
@@ -101,19 +102,19 @@ section {
 .top { 
     position: relative;
     height: 300px;
-    background-image: url('/img/run.jpeg');
+    background-image: url('./img/run.jpeg');
 }
 
 .middle { 
     position: relative;
     height: 300px;
-    background-image: url('/img/cycling.jpeg');
+    background-image: url('./img/cycling.jpeg');
 }
 
 .bottom { 
     position: relative;
     height: 300px;
-    background-image: url('/img/swimming.jpeg');
+    background-image: url('./img/swimming.jpeg');
 }
 
 .about-us-text {
@@ -123,6 +124,7 @@ section {
     color: #fff;
     z-index: 1;
     text-align: center;
+    margin-left: 42%;
     
 }
 
